@@ -1,0 +1,57 @@
+
+// Cómo comprar
+.carrito-icon {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.video-como-comprar {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+}
+
+// Medios de pago
+.medios-pago {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  img {
+    object-fit: contain;
+    max-height: 160px;
+    height: auto;
+    width: auto;
+  }
+}
+
+// Envíos
+.logo-envio {
+  max-height: 180px;
+  width: auto;
+  padding: 6px;
+}
+
+.card-envio {
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+}
+
+// Nosotros
+.carousel-inner img {
+  border-radius: 8px;
+}
+
+.btn-outline-danger {
+  border-radius: 8px;
+  font-weight: 500;
+}

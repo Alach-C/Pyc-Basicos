@@ -181,7 +181,16 @@ p {
 }
 /* como comprar */
 .carrito-icon {
-max-width: 150px;
+max-width: 80px;
+}
+.medios-pago {
+  max-width: 90px;
+  
+}
+/* nosotros*/ 
+.mapa-nosotros{
+  max-width: 230px;
+  
 }
 /* footer movile */
   .footer-custom {

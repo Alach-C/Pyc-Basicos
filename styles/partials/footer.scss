@@ -1,0 +1,27 @@
+
+// Footer
+.footer-custom {
+  background-color: $color-principal;
+  width: 100vw;
+  margin-top: auto;
+  padding-top: 1rem;
+  box-sizing: border-box;
+
+  p {
+    margin: 0;
+    font-size: 16px;
+    text-align: right;
+    color: white;
+  }
+  
+
+  a {
+    img {
+      transition: transform 0.2s ease;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
