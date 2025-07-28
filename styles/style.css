@@ -39,11 +39,95 @@ p {
   background-color: rgb(167, 6, 6);
 }
 
+.barrasuperior-custom {
+  background-color: rgb(203, 4, 4);
+  color: white;
+}
+
+.bloque-principal {
+  padding: 50px 0;
+}
+
+.texto-bloque-principal {
+  padding: 0 20px;
+}
+.texto-bloque-principal p {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+.logo-bienvenida {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+
+.img-zoom:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.carrito-icon {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.video-como-comprar {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.medios-pago {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.medios-pago img {
+  object-fit: contain;
+  max-height: 160px;
+  height: auto;
+  width: auto;
+}
+
+.logo-envio {
+  max-height: 180px;
+  width: auto;
+  padding: 6px;
+}
+
+.card-envio {
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.card-envio:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-inner img {
+  border-radius: 8px;
+}
+
+.btn-outline-danger {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
 .footer-custom {
   background-color: rgb(203, 4, 4);
   width: 100vw;
   margin-top: auto;
-  padding-top: 1rem;
+  padding: 1rem 0;
   box-sizing: border-box;
 }
 .footer-custom p {
@@ -105,78 +189,6 @@ p {
   .footer-custom a img {
     transition: transform 0.5s ease;
   }
-}
-.bloque-principal {
-  padding: 50px 0;
-}
-.bloque-principal .texto-bloque-principal {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.bloque-principal .texto-bloque-principal p {
-  text-align: left;
-  font-size: 20px;
-  margin-top: 20px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.6;
-}
-.bloque-principal .logo-bienvenida {
-  max-width: 250px;
-  width: 100%;
-  height: auto;
-}
-
-.carrito-icon {
-  max-width: 500px;
-  width: 100%;
-  height: auto;
-}
-
-.video-como-comprar {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  border-radius: 10px;
-}
-
-.medios-pago {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.medios-pago img {
-  object-fit: contain;
-  max-height: 160px;
-  height: auto;
-  width: auto;
-}
-
-.logo-envio {
-  max-height: 180px;
-  width: auto;
-  padding: 6px;
-}
-
-.card-envio {
-  box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-.card-envio:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-}
-
-.carousel-inner img {
-  border-radius: 8px;
-}
-
-.btn-outline-danger {
-  border-radius: 8px;
-  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */

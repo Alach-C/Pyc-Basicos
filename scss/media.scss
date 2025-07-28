@@ -7,11 +7,10 @@
     max-width: 150px;
   }
 
-  .texto-bloque-principal p {
-    font-size: 16px;
-    padding: 0 20px;
-    text-align: justify;
-  }
+.texto-bloque-principal p {
+  font-size: 16px;
+  padding: 0 20px;
+}
 
   h1 {
     font-size: 20px;
@@ -23,12 +22,12 @@
     margin-bottom: 5px;
   }
 
-  p {
-    font-size: 16px;
-  }
-
-  .carrito-icon {
-    max-width: 80px;
+ .carrito-icon {
+   text-align: center;   // centra el contenido inline como la <img>
+   .carrito-icon img {
+     width: 80px;          // o el tamaño que quieras
+     max-width: 100%;
+    } 
   }
 
   .medios-pago {
