@@ -7,11 +7,13 @@
     max-width: 150px;
   }
 
-  .texto-bloque-principal p {
-    font-size: 16px;
-    padding: 0 20px;
-    text-align: justify;
-  }
+.texto-bloque-principal p {
+  font-size: 16px;
+  padding: 0 20px;
+}
+ p{ 
+    font-size: 18px;
+ }
 
   h1 {
     font-size: 20px;
@@ -23,12 +25,12 @@
     margin-bottom: 5px;
   }
 
-  p {
-    font-size: 16px;
-  }
-
-  .carrito-icon {
-    max-width: 80px;
+ .carrito-icon {
+   text-align: center;  
+   .carrito-icon img {
+     width: 80px;          
+     max-width: 100%;
+    } 
   }
 
   .medios-pago {
@@ -45,6 +47,7 @@
 
   .mapa-nosotros {
     max-width: 230px;
+    
   }
 
   .footer-custom {
@@ -52,7 +55,7 @@
     text-align: center;
 
     p {
-      font-size: 10px;
+      font-size: 14px;
     }
 
     a img {

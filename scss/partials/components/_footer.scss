@@ -1,15 +1,16 @@
 
 // Footer
 .footer-custom {
-  background-color: $color-principal;
+  background-color: rgb(203, 4, 4);
   width: 100vw;
   margin-top: auto;
   padding-top: 1rem;
   box-sizing: border-box;
+ }
 
-  p {
+  footer p {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
     text-align: right;
     color: white;
   }
@@ -24,4 +25,3 @@
       }
     }
   }
-}

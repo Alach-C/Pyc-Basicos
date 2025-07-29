@@ -1,4 +1,8 @@
-  
+
+* {
+    margin: 0;
+    padding: 0;
+ }
 
 // -------------------------
 // VARIABLES
@@ -9,9 +13,6 @@ $fuente-principal: 'Jost', sans-serif;
 
 // -------------------------
 // ESTILOS BASE
-// -------------------------
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
-
 body {
   font-family: $fuente-principal;
   margin: 0;
@@ -23,6 +24,7 @@ body {
 
   main {
     flex-grow: 1;
+    padding: 0 16px;
   }
 }
 
@@ -39,9 +41,11 @@ h2, h3 {
 
 p {
   color: black;
+}
+.parrafo {
+  text-align: justify;
   font-size: 20px;
   line-height: 1.6;
-  text-align: justify;
 }
 
 .btn {
