@@ -11,6 +11,9 @@
   font-size: 16px;
   padding: 0 20px;
 }
+ p{ 
+    font-size: 18px;
+ }
 
   h1 {
     font-size: 20px;
@@ -23,9 +26,9 @@
   }
 
  .carrito-icon {
-   text-align: center;   // centra el contenido inline como la <img>
+   text-align: center;  
    .carrito-icon img {
-     width: 80px;          // o el tamaño que quieras
+     width: 80px;          
      max-width: 100%;
     } 
   }
@@ -44,6 +47,7 @@
 
   .mapa-nosotros {
     max-width: 230px;
+    
   }
 
   .footer-custom {
@@ -51,7 +55,7 @@
     text-align: center;
 
     p {
-      font-size: 10px;
+      font-size: 14px;
     }
 
     a img {

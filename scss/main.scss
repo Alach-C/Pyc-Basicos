@@ -1,0 +1,19 @@
+// =============================
+// IMPORTACIONES PRINCIPALES
+// =============================
+
+// 1. BASE (Reset + Tipografías)
+@use "./partials/base/reset";
+@use "./partials/base/tipografias";
+
+// 2. VARIABLES
+@use "./partials/components/variables" as vars;
+
+// 3. COMPONENTES
+@use "./partials/components/heder";
+@use "./partials/components/general";
+@use "./partials/components/media";
+@use "./partials/components/footer";
+
+
+

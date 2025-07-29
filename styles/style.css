@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Jost", sans-serif;
   margin: 0;
@@ -10,6 +15,37 @@ body {
 }
 body main {
   flex-grow: 1;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(167, 6, 6);
+}
+
+h2, h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: rgb(167, 6, 6);
+}
+
+p {
+  color: black;
+}
+
+.parrafo {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.btn {
+  background-color: rgb(203, 4, 4);
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(167, 6, 6);
 }
 
 h1 {
@@ -31,34 +67,31 @@ p {
   text-align: justify;
 }
 
-.btn {
-  background-color: rgb(203, 4, 4);
-  color: white;
-}
-.btn:hover {
-  background-color: rgb(167, 6, 6);
-}
-
 .barrasuperior-custom {
   background-color: rgb(203, 4, 4);
   color: white;
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 0.3rem 0;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 32px;
+}
+.navbar li {
+  list-style-type: none;
+}
+.navbar li a {
+  text-decoration: none;
+  color: black;
 }
 
 .bloque-principal {
   padding: 50px 0;
-}
-
-.texto-bloque-principal {
-  padding: 0 20px;
-}
-.texto-bloque-principal p {
-  text-align: left;
-  font-size: 20px;
-  margin-top: 20px;
-  max-width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 1.6;
+  color: black;
 }
 
 .logo-bienvenida {
@@ -67,14 +100,18 @@ p {
   height: auto;
 }
 
-.img-zoom:hover {
-  transform: scale(1.03);
-  transition: transform 0.3s ease;
+.texto-bloque-principal p {
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carrito-icon {
-  max-width: 500px;
-  width: 100%;
+  max-width: 300px;
+  width: 90%;
   height: auto;
 }
 
@@ -123,26 +160,6 @@ p {
   font-weight: 500;
 }
 
-.footer-custom {
-  background-color: rgb(203, 4, 4);
-  width: 100vw;
-  margin-top: auto;
-  padding: 1rem 0;
-  box-sizing: border-box;
-}
-.footer-custom p {
-  margin: 0;
-  font-size: 16px;
-  text-align: right;
-  color: white;
-}
-.footer-custom a img {
-  transition: transform 0.2s ease;
-}
-.footer-custom a img:hover {
-  transform: scale(1.1);
-}
-
 @media (max-width: 575.98px) {
   .logo-bienvenida img {
     max-width: 150px;
@@ -150,7 +167,9 @@ p {
   .texto-bloque-principal p {
     font-size: 16px;
     padding: 0 20px;
-    text-align: justify;
+  }
+  p {
+    font-size: 18px;
   }
   h1 {
     font-size: 20px;
@@ -160,11 +179,12 @@ p {
     font-size: 15px;
     margin-bottom: 5px;
   }
-  p {
-    font-size: 16px;
-  }
   .carrito-icon {
-    max-width: 80px;
+    text-align: center;
+  }
+  .carrito-icon .carrito-icon img {
+    width: 80px;
+    max-width: 100%;
   }
   .medios-pago {
     justify-content: center;
@@ -184,11 +204,32 @@ p {
     text-align: center;
   }
   .footer-custom p {
-    font-size: 10px;
+    font-size: 14px;
   }
   .footer-custom a img {
     transition: transform 0.5s ease;
   }
+}
+.footer-custom {
+  background-color: rgb(203, 4, 4);
+  width: 100vw;
+  margin-top: auto;
+  padding-top: 1rem;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+  color: white;
+}
+
+a img {
+  transition: transform 0.2s ease;
+}
+a img:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */
