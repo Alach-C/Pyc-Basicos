@@ -7,7 +7,7 @@
 @use "./partials/base/tipografias";
 
 // 2. VARIABLES
-@use "./partials/components/variables" as vars;
+@use "./partials/utilities/variables" as vars;
 
 // 3. COMPONENTES
 @use "./partials/components/heder";
