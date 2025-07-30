@@ -1,6 +1,10 @@
-@use "./partials/utilities/variables";
+// Utilidades 
+
+@use "../utilities/variables";
+@use "../utilities/mixins";
+
 .footer-custom {
-  background-color: $color-principal;
+  background-color: variables.$color-principal;
   width: 100vw;
   margin-top: auto;
   padding-top: 1rem;
@@ -15,7 +19,7 @@
 
   a {
     img {
-      @include hover-scale(1.1);
+      @include mixins.hover-scale(1.1);
     }
   }
 }

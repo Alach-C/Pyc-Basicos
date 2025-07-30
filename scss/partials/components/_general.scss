@@ -1,4 +1,5 @@
-@use "../partials/utilities/variables";
+
+@use "../utilities/variables";
 
 //General 
 
@@ -19,10 +20,11 @@ p {
   text-align: justify;
 }
 .btn {
-   background-color: $color-secundario;
+   background-color: variables.$color-secundario;
    color: white;
 
    &:hover {
-     background-color: $color-principal;
+     background-color: variables.$color-principal;
+     color: white;
    }
 }

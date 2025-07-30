@@ -13,25 +13,6 @@ li {
   list-style-type: none;
 }
 
-h1 {
-  font-size: 40px;
-  margin-bottom: 20px;
-  color: rgb(167, 6, 6);
-}
-
-h2, h3 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: rgb(167, 6, 6);
-}
-
-p {
-  color: black;
-  font-size: 20px;
-  line-height: 1.6;
-  text-align: justify;
-}
-
 .barrasuperior-custom {
   background-color: rgb(203, 4, 4);
   color: white;
@@ -44,6 +25,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 32px;
 }
 .navbar ul li {
@@ -54,9 +36,36 @@ p {
   color: black;
 }
 
+h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: rgb(167, 6, 6);
+}
+
+h2, h3, h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: rgb(167, 6, 6);
+}
+
+p {
+  color: #000000;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.btn {
+  background-color: rgb(167, 6, 6);
+  color: white;
+}
+.btn:hover {
+  background-color: rgb(203, 4, 4);
+  color: white;
+}
+
 .bloque-principal {
   padding: 50px 0;
-  color: black;
 }
 
 .logo-bienvenida {
@@ -66,7 +75,6 @@ p {
 }
 
 .texto-bloque-principal p {
-  color: black;
   text-align: left;
   margin-top: 20px;
   max-width: 900px;
@@ -112,17 +120,15 @@ p {
   cursor: pointer;
 }
 .card-envio:hover {
-  transform: scale(1.05);
+  transition: transform 0.2s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.card-envio:hover:hover {
+  transform: scale(1.5);
 }
 
 .carousel-inner img {
   border-radius: 8px;
-}
-
-.btn-outline-danger {
-  border-radius: 8px;
-  font-weight: 500;
 }
 
 @media (max-width: 575.98px) {
@@ -182,18 +188,16 @@ p {
   padding-top: 1rem;
   box-sizing: border-box;
 }
-
-footer p {
+.footer-custom p {
   margin: 0;
   font-size: 14px;
   text-align: right;
   color: white;
 }
-
-a img {
+.footer-custom a img {
   transition: transform 0.2s ease;
 }
-a img:hover {
+.footer-custom a img:hover {
   transform: scale(1.1);
 }
 
