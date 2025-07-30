@@ -1,5 +1,6 @@
 
-@use "./partials/utilities/variables";
+@use "../utilities/variables";
+
 
 // inicio 
 
@@ -20,13 +21,4 @@
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.botton {
-  background-color: $color-secundario;
-   color: white;
-
-   &:hover {
-     background-color: $color-principal;
-   }
 }
