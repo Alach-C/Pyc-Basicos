@@ -11,8 +11,7 @@
 
 .navbar {
   ul {
-    @include mixins.flex(row, center, center);
-    gap: 32px;
+    gap: 1.5rem; 
 
     li {
       list-style-type: none;
