@@ -12,16 +12,3 @@
     transform: scale($factor);
   }
 }
-@mixin flip-animation(
-  $nombre: card-flip,
-  $duracion: 0.8s,
-  $delay: 0.3s,
-  $timing: ease-in
-) {
-  animation-name: $nombre;
-  animation-duration: $duracion;
-  animation-delay: $delay;
-  animation-iteration-count: 1;
-  animation-timing-function: $timing;
-  animation-fill-mode: both;
-}
