@@ -39,16 +39,15 @@
     <!-- Menú -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-       <!-- Botón hamburguesa visible solo en pantallas pequeñas -->
+
        <button
          class="navbar-toggler" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"  aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
 
-       <!-- Contenedor del menú en móvil -->
         <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
           <ul class="navbar-nav">
-           <!-- Items del menú -->
+
             <li class="nav-item">
              <a class="nav-link active" href="../index.html">Inicio</a>
             </li>
@@ -89,15 +88,12 @@
          </p>
        </div>
       </section>
-   <!-- Sección: Video -->
+   <!--  Video -->
     <section class="text-center mb-5 container">
       <video src="../assets/video/como-comprar.mp4" controls class="video-como-comprar"></video>
     </section>
    
-
-   
-
-    <!-- Sección: Medios de Pago -->
+    <!-- Medios de Pago -->
     <section class="  text-center">
       <h3 class="fs-4 fw-bold mb-4">Medios de pago</h3>
       <div class="align-items-center d-flex flex-wrap justify-content-center gap-4 medios-pago">
@@ -107,6 +103,45 @@
         <img src="../assets/iconos/rapipago-logo.jpg" alt="Rapipago" class="img-fluid" />
       </div>
     </section>
+    <!-- Deja tu contacto -->
+    <section class="contacto py-3">
+      <div class="container d-flex justify-content-center"> 
+        <div class="formulario-contacto d-flex flex-column flex-md-row align-items-center p-4">
+          <!-- Formulario -->
+          <div class="formulario col-md-6 text-white">
+             <h4 class="fw-bold mb-3 fs-5">¡Nosotros nos comunicamos con vos!</h4>
+            <h5 class="px-3 py-1 rounded-3 mb-3 fs-6">Dejanos tu contacto</h5>
+        
+            <form>
+              <div class="mb-2">
+                <label class="form-label small">Nombre:</label>
+                <input type="text" class="form-control  form-control-sm" placeholder="nombre">
+              </div>
+              <div class="mb-2">
+                <label class="form-label small">Localidad:</label>
+                <input type="text" class="form-control form-control-sm" placeholder="localidad">
+              </div>
+              <div class="mb-2">
+                <label class="form-label small">Teléfono:</label>
+                <input type="text" class="form-control form-control-sm" placeholder="ejemplo (221)7895437">
+              </div>
+              <div class="mb-2">
+                <label class="form-label small">Mail:</label>
+                <input type="email" class="form-control form-control-sm" placeholder="correo">
+              </div>
+          
+              <button type="button" class="btn btn-light fw-bold px-3 py-1 rounded-pill mt-2 small">Enviar</button>
+            </form>
+          </div>
+
+          <!-- Imagen -->
+         <div class="d-none d-md-block col-md-6 text-end">
+            <img src="../assets/logo/logo-tp.png" alt="Logo PyC" class="img-fluid" >
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <!-- Footer -->

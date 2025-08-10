@@ -1,9 +1,13 @@
-// -------------------------
-// VARIABLES
-// -------------------------
+
+
+
 $color-principal: rgb(203, 4, 4);
 $color-secundario: rgb(167, 6, 6);
 $color-p: #000000;
 
 $fuente-principal: 'Jost', sans-serif;
-$titulos: $color-secundario !default;
+$titulos: $color-secundario;
+
+
+$bp-mobile: 575.98px;   
+$bp-tablet: 767.98px;

@@ -89,6 +89,7 @@ p {
   max-width: 800px;
   height: auto;
   border-radius: 10px;
+  margin: auto;
 }
 
 .medios-pago {
@@ -102,6 +103,48 @@ p {
   max-height: 160px;
   height: auto;
   width: auto;
+}
+
+.formulario-contacto {
+  width: 80%;
+  background-color: rgb(167, 6, 6);
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  margin: auto;
+}
+.formulario-contacto h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+.formulario-contacto h5 {
+  text-align: center;
+  font-size: 1rem;
+}
+.formulario-contacto form label {
+  color: white;
+}
+.formulario-contacto form input {
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+.formulario-contacto button {
+  margin-top: 1.5rem;
+  background-color: white;
+  color: rgb(203, 4, 4);
+  font-weight: bold;
+  border: 2px solid white;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 0.3s ease;
+}
+.formulario-contacto button:hover {
+  background-color: rgb(167, 6, 6);
+  color: white;
+  border: 2px solid white;
 }
 
 .logo-envio {
@@ -143,23 +186,65 @@ p {
   .logo-bienvenida img {
     max-width: 150px;
   }
+}
+@media (max-width: 767.98px) {
+  .logo-bienvenida img {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .texto-bloque-principal p {
     font-size: 16px;
     padding: 0 20px;
   }
+}
+@media (max-width: 767.98px) {
+  .texto-bloque-principal p {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 575.98px) {
   p {
     font-size: 18px;
     text-align: center;
   }
+}
+@media (max-width: 767.98px) {
+  p {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 575.98px) {
   h1 {
     font-size: 20px;
     margin-bottom: 5px;
   }
+}
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 575.98px) {
   h2,
   h3 {
     font-size: 15px;
     margin-bottom: 5px;
   }
+}
+@media (max-width: 767.98px) {
+  h2,
+  h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .carrito-icon {
     text-align: center;
   }
@@ -167,6 +252,17 @@ p {
     width: 140px;
     max-width: 100%;
   }
+}
+@media (max-width: 767.98px) {
+  .carrito-icon {
+    text-align: center;
+  }
+  .carrito-icon img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .medios-pago {
     justify-content: center;
     flex-wrap: wrap;
@@ -177,11 +273,30 @@ p {
     width: auto;
     height: auto;
   }
+}
+@media (max-width: 767.98px) {
+  .medios-pago {
+    gap: 12px;
+  }
+  .medios-pago img {
+    max-height: 70px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .mapa-nosotros {
     max-width: 250px;
     margin: 0 auto;
     display: block;
   }
+}
+@media (max-width: 767.98px) {
+  .mapa-nosotros {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 575.98px) {
   .footer-custom {
     font-size: 10px;
     text-align: center;
@@ -193,6 +308,15 @@ p {
     transition: transform 0.5s ease;
   }
 }
+@media (max-width: 767.98px) {
+  .footer-custom {
+    font-size: 12px;
+  }
+  .footer-custom p {
+    font-size: 15px;
+  }
+}
+
 .footer-custom {
   background-color: rgb(203, 4, 4);
   width: 100vw;

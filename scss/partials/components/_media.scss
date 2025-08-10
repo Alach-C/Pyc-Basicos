@@ -1,36 +1,65 @@
 @use "../utilities/variables";
 @use "../utilities/mixins";
 
-// -------------------------
-//  Mobile
-// -------------------------
-@media (max-width: 575.98px) {
-  .logo-bienvenida img {
+
+.logo-bienvenida img {
+  @include mixins.mobile {
     max-width: 150px;
   }
+  @include mixins.tablet {
+    max-width: 180px; 
+  }
+}
 
-  .texto-bloque-principal p {
+
+.texto-bloque-principal p {
+  @include mixins.mobile {
     font-size: 16px;
     padding: 0 20px;
   }
+  @include mixins.tablet {
+    font-size: 18px;
+    padding: 0 40px;
+  }
+}
 
-  p {
+
+p {
+  @include mixins.mobile {
     font-size: 18px;
     text-align: center;
   }
+  @include mixins.tablet {
+    font-size: 19px;
+  }
+}
 
-  h1 {
+
+h1 {
+  @include mixins.mobile {
     font-size: 20px;
     margin-bottom: 5px;
   }
+  @include mixins.tablet {
+    font-size: 24px;
+  }
+}
 
-  h2,
-  h3 {
+
+h2,
+h3 {
+  @include mixins.mobile {
     font-size: 15px;
     margin-bottom: 5px;
   }
+  @include mixins.tablet {
+    font-size: 18px;
+  }
+}
 
-  .carrito-icon {
+
+.carrito-icon {
+  @include mixins.mobile {
     text-align: center;
 
     img {
@@ -38,8 +67,18 @@
       max-width: 100%;
     }
   }
+  @include mixins.tablet {
+    text-align: center;
 
-  .medios-pago {
+    img {
+      width: 160px;
+    }
+  }
+}
+
+
+.medios-pago {
+  @include mixins.mobile {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
@@ -50,14 +89,30 @@
       height: auto;
     }
   }
+  @include mixins.tablet {
+    gap: 12px;
 
-  .mapa-nosotros {
+    img {
+      max-height: 70px;
+    }
+  }
+}
+
+
+.mapa-nosotros {
+  @include mixins.mobile {
     max-width: 250px;
     margin: 0 auto;
     display: block;
   }
+  @include mixins.tablet {
+    max-width: 300px;
+  }
+}
 
-  .footer-custom {
+
+.footer-custom {
+  @include mixins.mobile {
     font-size: 10px;
     text-align: center;
 
@@ -67,6 +122,13 @@
 
     a img {
       transition: transform 0.5s ease;
+    }
+  }
+  @include mixins.tablet {
+    font-size: 12px;
+
+    p {
+      font-size: 15px;
     }
   }
 }

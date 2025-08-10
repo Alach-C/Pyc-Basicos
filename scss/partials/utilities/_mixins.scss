@@ -1,4 +1,6 @@
 
+@use "../utilities/variables";
+
 @mixin flex ($direccion, $justify, $alingn) {
     display: flex;
     flex-direction: $direccion ;
@@ -10,5 +12,18 @@
   transition: transform 0.2s ease;
   &:hover {
     transform: scale($factor);
+  }
+}
+
+@mixin mobile {
+  @media (max-width: variables.$bp-mobile) {
+    @content;
+  }
+}
+
+
+@mixin tablet {
+  @media (max-width: variables.$bp-tablet) {
+    @content;
   }
 }

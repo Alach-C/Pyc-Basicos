@@ -1,6 +1,6 @@
 
-
-// Cómo comprar
+@use "../utilities/variables";
+@use "../utilities/mixins";
 .carrito-icon {
   max-width: 300px;
   width: 90%;
@@ -12,8 +12,9 @@
   max-width: 800px;
   height: auto;
   border-radius: 10px;
+  margin: auto;
 }
-// Medios de pago
+
 .medios-pago {
   display: flex;
   justify-content: center;
@@ -27,3 +28,57 @@
     width: auto;
   }
 }
+.formulario-contacto {
+  width: 80%;
+  background-color: variables.$color-secundario;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  color: white;
+  margin: auto;
+  
+
+  h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  h5 {
+    text-align: center;
+    font-size: 1rem;
+
+
+  }
+
+  form {
+    label {
+      color: white;
+    }
+
+    input {
+      border-radius: 1rem;
+      padding: 0.5rem 1rem;
+      border: none;
+    }
+  }
+
+    button {
+    margin-top: 1.5rem;
+    background-color: white;
+    color: variables.$color-principal;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 0.5rem 2rem;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: variables.$color-secundario;
+      color: white;
+      border: 2px solid white;
+    }
+  }
+ 
+  }
+
